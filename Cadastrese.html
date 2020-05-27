@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Futebol Society</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/
+css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/
+jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/
+popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/
+bootstrap.min.js"></script>
+
+<script src="https://kit.fontawesome.com/f2d16a9487.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="FutebolSociety.css" />
+
+
+</head>
+
+<body>
+
+    <div class="container-fuid m-1">
+
+        <div class="row">
+     
+            <div class="col-12">
+             <img src="LogoCerto.png" class="img-fluid" alt="Logo Empresa">
+            </div>
+           
+           </div>
+    
+    <div>
+    
+        <nav class="navbar navbar-expand-lg navbar-light mt-1 font-weight-bolder bg-info">
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSite">
+               
+                <ul class="navbar-nav mr-auto ml-auto mt-1">
+                    
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="FutebolSociety.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="QuadraSociety.html">Quadras Society</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="QuadraSalão.html">Quadras Salão</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="QuadraVolei.html">Quadras Volei</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                      <a class="nav-link" href="" data-toggle="modal" data-target="#ModalContato">Contato</a>
+                    </li>
+                </ul>
+    
+                <div class="modal fade" id="ModalContato">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Contato</h4>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <p>Obrigado por visitar nossa página, deixe aqui o que gostaria de nos comunicar e seguir nosso numero para contato.</p>
+                        <form action=“">
+                            <div class="form-group">
+                            <label for="Nome">Nome:</label>
+                            <input type="Nome" class="form-control" id="Nome" placeholder="Nome" name="Nome">
+                            </div>
+    
+                            <div class="form-group">
+                              <label for="Telefone">Telefone:</label>
+                              <input type="Telefone" class="form-control" id="Telefone" placeholder="Telefone" name="Telefone">
+                              </div>
+    
+                            <div class="form-group">
+                              <label for="email">Email:</label>
+                              <input type="email" class="form-control" id="email" placeholder="Informe seu e-mail" name="email">
+                              </div>
+    
+                              <select class="form-control">
+                                <option selected>Titulo</option>
+                                <option value="Informações">Informações</option>
+                                <option value="Sugestões">Sugestões</option>
+                                <option value="Reclamações">Reclamações</option>
+                                <option value="Divulgar sua Quadra">Divulgar sua Quadra</option>
+                                <option value="Outros">Outros</option>
+                              </select>
+    
+                              <div class="form-group mt-2">
+                                <label for="Textarea">Descrição:</label>
+                                <textarea class="form-control" id="Textarea"></textarea>
+                              </div>
+    
+                            </form>
+                        
+                            <p> <img src="whats.png" class="img-fluid" alt="Logo Empresa"> (16)99999-9999</p>
+    
+                      </div>
+                      
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <a href="" class="btn btn-info btn-block">Enviar</a>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+    
+    
+                <form class="form-inline">
+                  <input class="form-control mt-1" type="search" placeholder="Buscar...">
+                   <button class="btn btn-dark ml-lg-1 mt-1" type="submit">OK</button>
+                </form>
+    
+            </div>
+    
+            <button type="button" class="btn btn-dark ml-lg-5 mt-1" data-toggle="modal" data-target="#Modal">Entrar</button>
+    
+            <!-- The Modal -->
+            <div class="modal fade" id="Modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Logar</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <form action=“">
+                        <div class="form-group">
+                        <label for="email">Login:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Informe seu e-mail" name="email">
+                        </div>
+                        <div class="form-group">
+                        <label for="pwd">Senha:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Informe sua senha" name="pwd">
+                        </div>
+                    </form>
+                  </div>
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <a href="Cadastrese.html" class="btn btn-info btn-block">Cadastre-se</a>
+                    <a href="#" class="btn btn-warning btn-block text-light">Alterar Cadastro</a>
+                    <a href="FutebolSociety.html" class="btn btn-dark btn-block">Entrar</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+    
+        </nav>
+    
+    </div>
+    
+    </div>
+
+<form class="m-2" action=“">
+
+  <h2>Cadastro:</h2>
+  
+  <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="form-group">
+              <label for="nome">Nome:</label>
+              <input type="text" class="form-control" id="nome" placeholder="Informe seu nome" name="nome">
+          </div>
+      </div>
+              
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="form-group">
+              <label for="Sobrenome">Sobrenome:</label>
+              <input type="Sobrenome" class="form-control" id="Sobrenome" placeholder="Informe seu Sobrenome" name="Sobrenome">
+          </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-2">
+        <div class="form-group">
+            <label for="CPF">CPF:</label>
+            <input type="text" class="form-control" id="CPF" placeholder="Informe seu CPF" name="CPF">
+        </div>
+    </div>
+            
+    <div class="col-12 col-md-6 col-lg-2">
+        <div class="form-group">
+            <label for="Telefone">Telefone:</label>
+            <input type="Telefone" class="form-control" id="Telefone" placeholder="Informe seu Telefone" name="Telefone">
+        </div>
+    </div>
+
+  </div>
+
+
+  <hr>
+  <h2>Cadastro Juridico:</h2>
+  
+
+  
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-6">
+            <div class="form-group">
+                <label for="nome_empresa">Nome Empresa:</label>
+                <input type="text" class="form-control" id="nome_empresa" placeholder="Nome da Empresa" name="nome_empresa">
+            </div>
+        </div>
+                
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="form-group">
+                <label for="CNPJ">CNPJ:</label>
+                <input type="CNPJ" class="form-control" id="CNPJ" placeholder="CNPJ" name="CNPJ">
+            </div>
+        </div>
+  
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="form-group">
+              <label for="IE">Inscrição Estadual:</label>
+              <input type="text" class="form-control" id="IE" placeholder="Inscrição Estadual" name="IE">
+          </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-2">
+            <div class="form-group">
+                <label for="CEP">CEP:</label>
+                <input type="text" class="form-control" id="CEP" placeholder="CEP" name="CEP">
+            </div>
+        </div>
+                
+        <div class="col-12 col-md-6 col-lg-5">
+            <div class="form-group">
+                <label for="Empresa">Endereço:</label>
+                <input type="Empresa" class="form-control" id="Empresa" placeholder="Rua, Avenida, Travessa" name="Empresa">
+            </div>
+        </div>
+  
+        <div class="col-12 col-md-6 col-lg-1">
+          <div class="form-group">
+              <label for="N">N°:</label>
+              <input type="text" class="form-control" id="N" placeholder="N°" name="N">
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="form-group">
+              <label for="Complemento">Complemento:</label>
+              <input type="text" class="form-control" id="Complemento" placeholder="Complemento" name="Complemento">
+          </div>
+        </div>
+  
+    </div>
+
+  <div class="row">
+      <div class="col-12 col-md-6 col-lg-3">
+          <div class="form-group">
+              <label for="nome_empresa">Bairro:</label>
+              <input type="text" class="form-control" id="Bairro" placeholder="Bairro" name="Bairro">
+          </div>
+      </div>
+              
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="form-group">
+              <label for="CNPJ">Cidade:</label>
+              <input type="CNPJ" class="form-control" id="Cidade" placeholder="Cidade" name="Cidade">
+          </div>
+      </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="form-group">
+            <label for="IE">Estado:</label>
+            <input type="text" class="form-control" id="Estado" placeholder="Estado" name="Estado">
+        </div>
+    </div>
+    
+  <div class="col-12 col-md-6 col-lg-2">
+      <div class="form-group">
+          <label for="IE">Telefone:</label>
+          <input type="text" class="form-control" id="Telefone" placeholder="Telefone" name="Telefone">
+      </div>
+  </div>
+
+  </div>
+
+
+<hr>
+<h2>Email:</h2>
+
+
+
+  <div class="row">
+    
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" class="form-control" id="email" placeholder="Informe seu e-mail" name="email">
+      </div>
+    </div>
+              
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="form-group">
+          <label for="email">Confirme seu E-mail:</label>
+          <input type="email" class="form-control" id="email2" placeholder="Confirme seu e-mail" name="email">
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-2">
+      <div class="form-group">
+          <label for="pwd">Senha:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Informe sua senha" name="pwd">
+      </div>
+    </div>
+
+  <div class="col-12 col-md-6 col-lg-2">
+      <div class="form-group">
+          <label for="pwd2">Confirmar Senha:</label>
+          <input type="password" class="form-control" id="pwd2" placeholder="Confirme sua senha" name="pwd">
+      </div>
+  </div>
+
+  </div>
+
+<div class="row">
+    
+  <div class="col-12 col-md-4 col-lg-4">
+        <button type="button" class="btn btn-info btn-block mt-2" data-target="#">Salvar</button>
+  </div>
+
+  <div class="col-12 col-md-4 col-lg-4">
+         <a href="FutebolSociety.html" style="text-decoration: none;"><button type="button" class="btn btn-dark btn-block mt-2">Cancelar</button></a>
+  </div>
+
+</div>
+
+</form>
+
+<hr>
+ <center> <b> By Carlos Sanchez </center>
+
+</body>
+    
+</html>

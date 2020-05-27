@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Futebol Society</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/
+css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/
+jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/
+popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/
+bootstrap.min.js"></script>
+
+<script src="https://kit.fontawesome.com/f2d16a9487.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="FutebolSociety.css" />
+
+<script type="text/javascript" src="FutebolSociety.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container-fuid m-1">
+
+        <div class="row">
+     
+            <div class="col-12">
+             <img src="LogoCerto.png" class="img-fluid" alt="Logo Empresa">
+            </div>
+           
+        </div>
+    
+    <div>
+    
+        <nav class="navbar navbar-expand-lg navbar-light mt-1 font-weight-bolder bg-info">
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSite">
+               
+                <ul class="navbar-nav mr-auto ml-auto mt-1">
+                    
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="FutebolSociety.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="QuadraSociety.html">Quadras Society</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="QuadraSalão.html">Quadras Salão</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="QuadraVolei.html">Quadras Volei</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                      <a class="nav-link" href="" data-toggle="modal" data-target="#ModalContato">Contato</a>
+                    </li>
+                </ul>
+    
+                <div class="modal fade" id="ModalContato">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Contato</h4>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <p>Obrigado por visitar nossa página, deixe aqui o que gostaria de nos comunicar e seguir nosso numero para contato.</p>
+                        <form action=“">
+                            <div class="form-group">
+                            <label for="Nome">Nome:</label>
+                            <input type="Nome" class="form-control" id="Nome" placeholder="Nome" name="Nome">
+                            </div>
+    
+                            <div class="form-group">
+                              <label for="Telefone">Telefone:</label>
+                              <input type="Telefone" class="form-control" id="Telefone" placeholder="Telefone" name="Telefone">
+                              </div>
+    
+                            <div class="form-group">
+                              <label for="email">Email:</label>
+                              <input type="email" class="form-control" id="email" placeholder="Informe seu e-mail" name="email">
+                              </div>
+    
+                              <select class="form-control">
+                                <option selected>Titulo</option>
+                                <option value="Informações">Informações</option>
+                                <option value="Sugestões">Sugestões</option>
+                                <option value="Reclamações">Reclamações</option>
+                                <option value="Divulgar sua Quadra">Divulgar sua Quadra</option>
+                                <option value="Outros">Outros</option>
+                              </select>
+    
+                              <div class="form-group mt-2">
+                                <label for="Textarea">Descrição:</label>
+                                <textarea class="form-control" id="Textarea"></textarea>
+                              </div>
+    
+                            </form>
+                        
+                            <p> <img src="whats.png" class="img-fluid" alt="Logo Empresa"> (16)99999-9999</p>
+    
+                      </div>
+                      
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <a href="" class="btn btn-info btn-block">Enviar</a>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+    
+    
+                <form class="form-inline">
+                  <input class="form-control mt-1" type="search" placeholder="Buscar...">
+                   <button class="btn btn-dark ml-lg-1 mt-1" type="submit">OK</button>
+                </form>
+    
+            </div>
+    
+            <button type="button" class="btn btn-dark ml-lg-5 mt-1" data-toggle="modal" data-target="#Modal">Entrar</button>
+    
+            <!-- The Modal -->
+            <div class="modal fade" id="Modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Logar</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <form action=“">
+                        <div class="form-group">
+                        <label for="email">Login:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Informe seu e-mail" name="email">
+                        </div>
+                        <div class="form-group">
+                        <label for="pwd">Senha:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Informe sua senha" name="pwd">
+                        </div>
+                    </form>
+                  </div>
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <a href="Cadastrese.html" class="btn btn-info btn-block">Cadastre-se</a>
+                    <a href="#" class="btn btn-warning btn-block text-light">Alterar Cadastro</a>
+                    <a href="FutebolSociety.html" class="btn btn-dark btn-block">Entrar</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+    
+        </nav>
+    
+    </div>
+    
+    </div>
+
+<div class="container-fluid m-3">
+
+     <h2>Arena Vila Golf Society</h2>
+        
+        <div class="row" id="row_img">
+        
+        <div class="car_img"> <img src="quadraArena.jpg" alt="" class="small_img" ></div>
+        
+        <div class="car_img"> <img src="QuadraArena02.jpg" alt="" class="small_img"> </div>
+        
+        <div class="car_img"> <img src="QuadraArena03.jpg" alt="" class="small_img"> </div>
+        
+        <div class="car_img"> <img src="QuadraArena04.jpg" alt="" class="small_img"> </div>
+        
+        <div class="car_img"> <img src="QuadraArena05.jpg" alt="" class="small_img"> </div>
+        
+        <div class="car_img"> <img src="QuadraArena06.jpg" alt="" class="small_img"> </div>
+        
+    </div>
+
+</div>
+
+
+<hr>
+ <center> <b> By Carlos Sanchez </center>
+
+</body>
+    
+</html>
