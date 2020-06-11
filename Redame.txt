@@ -1,0 +1,27 @@
+-----------Redame--------------
+
+---Códigos---
+
+Primeiro Passo baixar Visual Studio Code -- segue o link do site com o programa
+
+https://ninite.com/
+
+Na parte de Ferramentas em desenvolvimento
+
+Baixado e instalado abra o programa
+
+Va na opção "File" no canto esquerdo na parte superior da tela
+
+Dentro do File va na opção "Open File"
+
+Entre na pasta onde estão os arquivos do prjeto, clique no escolhido e va na opção abrir
+
+---Aplicação Web---
+
+Entre na pasta do arquivo
+
+No arquivo escolhido clique com o botão direito do mouse e va na opção "Abrir com"
+
+Escolha um navegador e clica
+
+OBS: No navegador 'Edge' da para deixar a tela mais responsiva.
