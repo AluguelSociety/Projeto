@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Futebol Society</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/
+css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/
+jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/
+popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/
+bootstrap.min.js"></script>
+
+<script src="https://kit.fontawesome.com/f2d16a9487.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="css/FutebolSociety.css" />
+
+<link rel="stylesheet" href="css/lightbox.min.css">
+
+<script type="text/javascript" src="FutebolSociety.js"></script>
+
+<script src="js/lightbox-plus-jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container-fuid m-1">
+
+        <div class="row">
+     
+            <div class="col-12">
+             <img src="imagens/LogoCerto.png" class="img-fluid" alt="Logo Empresa">
+            </div>
+           
+        </div>
+    
+    <div>
+    
+        <nav class="navbar navbar-expand-lg navbar-light mt-1 font-weight-bolder bg-info">
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSite">
+               
+                <ul class="navbar-nav mr-auto ml-auto mt-1">
+                    
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="FutebolSociety.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="QuadraSociety.html">Quadras Society</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="QuadraSalão.html">Quadras Salão</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                        <a class="nav-link" href="QuadraVolei.html">Quadras Volei</a>
+                    </li>
+                    <li class="nav-item mr-lg-5 ml-lg-5">
+                      <a class="nav-link" href="" data-toggle="modal" data-target="#ModalContato">Contato</a>
+                    </li>
+                </ul>
+    
+                <div class="modal fade" id="ModalContato">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Contato</h4>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <p>Obrigado por visitar nossa página, deixe aqui o que gostaria de nos comunicar e seguir nosso numero para contato.</p>
+                        <form action=“">
+                            <div class="form-group">
+                            <label for="Nome">Nome:</label>
+                            <input type="Nome" class="form-control" id="Nome" placeholder="Nome" name="Nome">
+                            </div>
+    
+                            <div class="form-group">
+                              <label for="Telefone">Telefone:</label>
+                              <input type="Telefone" class="form-control" id="Telefone" placeholder="Telefone" name="Telefone">
+                              </div>
+    
+                            <div class="form-group">
+                              <label for="email">Email:</label>
+                              <input type="email" class="form-control" id="email" placeholder="Informe seu e-mail" name="email">
+                              </div>
+    
+                              <select class="form-control">
+                                <option selected>Titulo</option>
+                                <option value="Informações">Informações</option>
+                                <option value="Sugestões">Sugestões</option>
+                                <option value="Reclamações">Reclamações</option>
+                                <option value="Divulgar sua Quadra">Divulgar sua Quadra</option>
+                                <option value="Outros">Outros</option>
+                              </select>
+    
+                              <div class="form-group mt-2">
+                                <label for="Textarea">Descrição:</label>
+                                <textarea class="form-control" id="Textarea"></textarea>
+                              </div>
+    
+                            </form>
+                        
+                            <p> <img src="imagens/whats.png" class="img-fluid" alt="Logo Empresa"> (16)99999-9999</p>
+    
+                      </div>
+                      
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <a href="" class="btn btn-info btn-block">Enviar</a>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+    
+    
+                <form class="form-inline">
+                  <input class="form-control mt-1" type="search" placeholder="Buscar...">
+                   <button class="btn btn-dark ml-lg-1 mt-1" type="submit">OK</button>
+                </form>
+    
+            </div>
+    
+            <button type="button" class="btn btn-dark ml-lg-5 mt-1" data-toggle="modal" data-target="#Modal">Entrar</button>
+    
+            <!-- The Modal -->
+            <div class="modal fade" id="Modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Logar</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <form action=“">
+                        <div class="form-group">
+                        <label for="email">Login:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Informe seu e-mail" name="email">
+                        </div>
+                        <div class="form-group">
+                        <label for="pwd">Senha:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Informe sua senha" name="pwd">
+                        </div>
+                    </form>
+                  </div>
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <a href="Cadastrese.html" class="btn btn-info btn-block">Cadastre-se</a>
+                    <a href="#" class="btn btn-warning btn-block text-light">Alterar Cadastro</a>
+                    <a href="FutebolSociety.html" class="btn btn-dark btn-block">Entrar</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+    
+        </nav>
+    
+    </div>
+    
+    </div>
+
+<div class="container-fluid m-2">
+
+     <h2>Arena Vila Golf Society</h2>
+
+  <div class="row">
+        
+      <a href="Arena_Vila_Golf/quadraArena.jpg" class="galeria" data-lightbox="mygallery" data-title="Quadra Sul"> <img src="Arena_Vila_Golf/quadraArena.jpg" alt="" class="mini"> </a>
+      <a href="Arena_Vila_Golf/QuadraArena02.jpg" class="galeria" data-lightbox="mygallery" data-title="Quadra Leste"> <img src="Arena_Vila_Golf/QuadraArena02.jpg" alt="" class="mini"> </a>
+      <a href="Arena_Vila_Golf/QuadraArena03.jpg" class="galeria" data-lightbox="mygallery" data-title="Quadra Oeste"> <img src="Arena_Vila_Golf/QuadraArena03.jpg" alt="" class="mini"> </a>
+      <a href="Arena_Vila_Golf/QuadraArena04.JPG" class="galeria" data-lightbox="mygallery" data-title="Quadra Norte"> <img src="Arena_Vila_Golf/QuadraArena04.JPG" alt="" class="mini"> </a>
+      <a href="Arena_Vila_Golf/QuadraArena05.jpg" class="galeria" data-lightbox="mygallery" data-title="Arena Bar Clube"> <img src="Arena_Vila_Golf/QuadraArena05.jpg" alt="" class="mini"> </a>
+      <a href="Arena_Vila_Golf/QuadraArena06.jpg" class="galeria" data-lightbox="mygallery" data-title="Quiosque Amigos"> <img src="Arena_Vila_Golf/QuadraArena06.jpg" alt="" class="mini"> </a>
+      <a href="Arena_Vila_Golf/QuadraArena07.jpg" class="galeria" data-lightbox="mygallery" data-title="Quisque Boleiros"> <img src="Arena_Vila_Golf/QuadraArena07.jpg" alt="" class="mini"> </a>
+      <a href="Arena_Vila_Golf/QuadraArena08.jpg" class="galeria" data-lightbox="mygallery" data-title="Quadra Noroeste"> <img src="Arena_Vila_Golf/QuadraArena08.jpg" alt="" class="mini"> </a>
+      <a href="Arena_Vila_Golf/QuadraArena09.jpg" class="galeria" data-lightbox="mygallery" data-title="Quadra Sudeste"> <img src="Arena_Vila_Golf/QuadraArena09.jpg" alt="" class="mini"> </a>
+      <a href="Arena_Vila_Golf/QuadraArena10.jpg" class="galeria" data-lightbox="mygallery" data-title="Quadra Nordeste"> <img src="Arena_Vila_Golf/QuadraArena10.jpg" alt="" class="mini"> </a>
+   
+  </div>
+
+  <div class="row mt-2">
+    <p>Proin pulvinar massa vel magna pharetra commodo. Morbi vulputate ullamcorper metus, ac consectetur orci sagittis quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc dignissim iaculis quam ut ullamcorper. Sed pretium vestibulum mi ut bibendum. Integer elit nunc, fermentum quis sollicitudin in, lacinia nec metus. Fusce et felis ut sapien facilisis interdum. Curabitur tincidunt nisl ut arcu lobortis scelerisque. Integer elementum lorem a neque faucibus bibendum. Aliquam pellentesque risus eget sem feugiat dapibus. Proin sagittis turpis sed nisl suscipit lacinia. Donec non laoreet velit. Duis non augue quam. Nulla dictum leo nec sem malesuada ullamcorper. Suspendisse a sagittis me.</p>
+  </div>
+
+  <div class="row mt-2">
+    <div class="col-12 col-md-6 col-lg-3">
+      <section class="maps m-1">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.548237021107!2d-47.8283899409731!3d-21.222769179179394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf1d68acc21d%3A0x37b8ee0abedeea39!2sRibeir%C3%A3o%20Preto%20-%20Conquista%2C%20Ribeir%C3%A3o%20Preto%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1593114220989!5m2!1spt-BR!2sbr" width="350" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    </div>
+    <div class="col-12 col-md-6 col-lg-6">
+      <p> <b> Nulla nec interdum arcu, sit amet maximus orci </b></p>
+      <p> <b> Nulla nec interdum arcu, sit amet maximus orci </b></p>
+      <p> <b> Nulla nec interdum arcu, sit amet maximus orci </b></p>
+      <p> <b> Nulla nec interdum arcu, sit amet maximus orci </b></p>
+    </div>
+  </div>
+        
+</div>    
+<hr>
+ <center> <b> By Carlos Sanchez </center>
+
+</body>
+    
+</html>
